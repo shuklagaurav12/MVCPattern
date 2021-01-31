@@ -15,6 +15,13 @@
 		E4815FBC25C40165008B4080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4815FBA25C40165008B4080 /* LaunchScreen.storyboard */; };
 		E4815FC725C40165008B4080 /* SalaryDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FC625C40165008B4080 /* SalaryDemoAppTests.swift */; };
 		E4815FD225C40165008B4080 /* SalaryDemoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FD125C40165008B4080 /* SalaryDemoAppUITests.swift */; };
+		E4815FE025C41EE4008B4080 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FDF25C41EE4008B4080 /* Utility.swift */; };
+		E4815FE425C42E2F008B4080 /* EmpRecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FE325C42E2F008B4080 /* EmpRecordModel.swift */; };
+		E4815FE625C44134008B4080 /* PaySlipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FE525C44134008B4080 /* PaySlipViewController.swift */; };
+		E4815FEB25C509F9008B4080 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FEA25C509F9008B4080 /* DBHelper.swift */; };
+		E4815FEC25C50AD5008B4080 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4815FE825C509C6008B4080 /* libsqlite3.tbd */; };
+		E4815FEE25C6C423008B4080 /* EmpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FED25C6C423008B4080 /* EmpCell.swift */; };
+		E4815FF025C6C488008B4080 /* allEmpSalaryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4815FEF25C6C488008B4080 /* allEmpSalaryDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		E4815FCD25C40165008B4080 /* SalaryDemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalaryDemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4815FD125C40165008B4080 /* SalaryDemoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryDemoAppUITests.swift; sourceTree = "<group>"; };
 		E4815FD325C40165008B4080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4815FDF25C41EE4008B4080 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E4815FE325C42E2F008B4080 /* EmpRecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpRecordModel.swift; sourceTree = "<group>"; };
+		E4815FE525C44134008B4080 /* PaySlipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaySlipViewController.swift; sourceTree = "<group>"; };
+		E4815FE825C509C6008B4080 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		E4815FEA25C509F9008B4080 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		E4815FED25C6C423008B4080 /* EmpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpCell.swift; sourceTree = "<group>"; };
+		E4815FEF25C6C488008B4080 /* allEmpSalaryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allEmpSalaryDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4815FEC25C50AD5008B4080 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,7 @@
 				E4815FC525C40165008B4080 /* SalaryDemoAppTests */,
 				E4815FD025C40165008B4080 /* SalaryDemoAppUITests */,
 				E4815FAD25C40163008B4080 /* Products */,
+				E4815FE725C509C5008B4080 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +118,16 @@
 				E4815FAF25C40163008B4080 /* AppDelegate.swift */,
 				E4815FB125C40163008B4080 /* SceneDelegate.swift */,
 				E4815FB325C40163008B4080 /* ViewController.swift */,
+				E4815FED25C6C423008B4080 /* EmpCell.swift */,
 				E4815FB525C40163008B4080 /* Main.storyboard */,
 				E4815FB825C40165008B4080 /* Assets.xcassets */,
 				E4815FBA25C40165008B4080 /* LaunchScreen.storyboard */,
 				E4815FBD25C40165008B4080 /* Info.plist */,
+				E4815FDF25C41EE4008B4080 /* Utility.swift */,
+				E4815FE325C42E2F008B4080 /* EmpRecordModel.swift */,
+				E4815FE525C44134008B4080 /* PaySlipViewController.swift */,
+				E4815FEA25C509F9008B4080 /* DBHelper.swift */,
+				E4815FEF25C6C488008B4080 /* allEmpSalaryDetails.swift */,
 			);
 			path = SalaryDemoApp;
 			sourceTree = "<group>";
@@ -126,6 +148,14 @@
 				E4815FD325C40165008B4080 /* Info.plist */,
 			);
 			path = SalaryDemoAppUITests;
+			sourceTree = "<group>";
+		};
+		E4815FE725C509C5008B4080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4815FE825C509C6008B4080 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4815FE025C41EE4008B4080 /* Utility.swift in Sources */,
 				E4815FB425C40163008B4080 /* ViewController.swift in Sources */,
+				E4815FEE25C6C423008B4080 /* EmpCell.swift in Sources */,
 				E4815FB025C40163008B4080 /* AppDelegate.swift in Sources */,
+				E4815FF025C6C488008B4080 /* allEmpSalaryDetails.swift in Sources */,
+				E4815FEB25C509F9008B4080 /* DBHelper.swift in Sources */,
+				E4815FE625C44134008B4080 /* PaySlipViewController.swift in Sources */,
+				E4815FE425C42E2F008B4080 /* EmpRecordModel.swift in Sources */,
 				E4815FB225C40163008B4080 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
